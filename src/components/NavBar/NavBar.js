@@ -1,6 +1,6 @@
 
-import './slider.css';
-function Slider() {
+import './NavBar.css';
+function NavBar() {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
     <div className="container">
@@ -23,11 +23,11 @@ function Slider() {
              <li><a href="./#services" className="page-scroll">خدماتنا</a></li>
              <li><a href="./#contact" className="page-scroll">ارسل رسالة</a></li>
              <li><a href="./#contact" className="page-scroll">طلب تحويل</a></li>
-           </ul>
+           </ul> 
          </div>
        </div>
      </nav>
   );
 }
 
-export default Slider;
+export default NavBar;
